@@ -1,4 +1,3 @@
-D:\sensitive_text\README.md:
 # 敏感词过滤系统 / Sensitive Word Filter System
 
 这是一个基于字典树（Trie）的高性能敏感词过滤系统，支持中文、英文、数字及混合内容的敏感词检测和替换。
