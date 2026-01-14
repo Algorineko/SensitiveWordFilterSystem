@@ -6,12 +6,13 @@ This is a high-performance sensitive word filter system based on Trie tree, supp
 
 #### 📁 项目结构 / Project Structure
 
-
+```txt
 sensitive_text/
 ├── main.go                 # 主程序入口 / Main program entry
 ├── trie_tree.go            # 字典树核心实现 / Trie tree core implementation
 ├── sensitive_dict.txt      # 敏感词词典文件 / Sensitive word dictionary file
 └── README.md              # 项目说明文档 / Project documentation
+```
 
 #### 🚀 快速开始 / Quick Start
 
@@ -115,7 +116,8 @@ isSensitive, foundWords := trie.Match("测试文本包含敏感词")
 
 字典树结构 / Trie Structure
 
-├── 傻 (傻)
+```text
+├── 傻
 │   ├── 宝 (傻宝) [END]
 │   └── 叉 (傻叉) [END]
 ├── 杂
@@ -124,6 +126,7 @@ isSensitive, foundWords := trie.Match("测试文本包含敏感词")
     └── u
         └── c
             └── k (fuck) [END]
+```
 
 
 匹配流程 / Matching Process
